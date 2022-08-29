@@ -1,0 +1,82 @@
+body{
+    background-color: gainsboro;
+}
+
+header{
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0, 0.8);
+}
+
+form{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 700px;
+    margin: 2rem auto;
+    font-family: 'Bebas';
+}
+
+label{
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    display: inline-block;
+    opacity: .9;
+
+}
+
+input, select{
+    width: 100%;
+    margin-bottom: 1rem;
+    display: block;
+    box-sizing: border-box;
+    padding: 0.80rem;
+}
+
+input:focus{
+    background-color: rgba(218, 165, 32, 0.513);
+
+}
+
+button{
+    padding: 15px;
+    display: block;
+    width: 100px;
+    font-weight: 900;
+    font-family: sans-serif;
+    border-radius: 6px;
+    background-color: goldenrod;
+    border: none;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: goldenrod;
+}
+
+.form-control-inline{
+    display: flex;
+}
+
+.form-control-inline input{
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+footer{
+    margin-bottom: 1rem;
+    display: block;
+}
+
+footer h4{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0,0,0, 0.8);
+}
+
+footer h4 a{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0,0,0, 0.8);
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
