@@ -8,12 +8,63 @@
     <title>Demo form</title>
 </head>
 <body>
+    <header>
+        <h1>Demo Form</h1>
+    </header>
 
         <form action="">
-            <h1>Demo Form</h1>
-            <input type="text" placeholder="First Name">
+            <h1>How Can We Help You?</h1>
+
+            <label for="user-name">Your Name</label>
+            <input type="text" id="user-name">
+
+            <label for="user-email">Your E-mail Address</label>
+            <input type="email" id="user-email">
+
+            <label for="user-number">Your Phone Number</label>
+            <input type="number" id="user-number">
+
+            <label for="message">Message</label>
+            <br>
+            <textarea name="" id="" cols="30" rows="7" class="message"></textarea>
+
+            <br>
+            <label for="">How did you find us</label>
+            <select name="" id="">
+                <option value="web search">Web Search</option>
+                <option value="Facebook">Facbook</option>
+                <option value="Twitter">Twitter</option>
+                <option value="Instagram">Instagram</option>
+                <option value="Linkedin">Linkedin</option>
+            </select>
+            
+            <h1>How Should We Reply?</h1>
+            <div class="form-control-inline">
+                <input type="radio" name="reply" id="call-me">
+                <label for="call-me">Call me</label>
+            </div>
+
+            <div class="form-control-inline">
+                <input type="radio" name="reply" id="send-message">
+                <label for="send-message">Send Me Message</label>
+            </div>
+
+            <div class="form-control-inline">
+                <input type="radio" name="reply" id="dont-reply">
+                <label for="dont-reply">Dont Reply</label>
+            </div>
+
+            <div class="form-control-inline">
+                <input type="checkbox" name="reply" id="terms" value="Tearms and Condition">
+                <label for="terms">Accept Tearms and Condition</label>
+            </div>
+
+
             <button>Submit</button>
         </form>
     
+        <footer>
+            <h4>Developed By <a href="https://www.linkedin.com/in/tayyib-gbondo-a623721b4/" target="_blank">Tayyib</a></h4>
+        </footer>
 </body>
 </html>

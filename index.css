@@ -1,10 +1,12 @@
 body{
     background-color: gainsboro;
+    box-sizing: border-box;
 }
 
 header{
     color: white;
     text-shadow: 2px 2px 5px rgba(0,0,0, 0.8);
+    text-align: center;
 }
 
 form{
@@ -61,6 +63,9 @@ button:hover{
 .form-control-inline input{
     width: auto;
     margin-right: 0.5rem;
+}
+.message{
+    width: 100%;
 }
 
 footer{
